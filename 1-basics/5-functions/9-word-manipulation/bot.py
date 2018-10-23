@@ -13,13 +13,17 @@ def upper_case(word):
 
 
 def mirrored(word):
- print(word, "|", end="")
- for position in range (1, word, 0):
-   print(word[position])
+  print(word, "|" ,word[::-1])
 
 
 def repeat(word):
-
+  print("Please enter number of repitions")
+  user_num = int(input())
+  for count in range (0, user_num, 1)
+  if (count / 2 == 0):
+    print(word.lower())
+  else:
+    print(word.upper())
 
 
 def run():
@@ -41,5 +45,8 @@ def run():
  elif (user_option == "4"):
    print(mirrored(word))
  elif (user option == "5"):
-   option_five = int(input())
-   if 
+   print(repeat(word))
+  else:
+    print ("I am not sure what you entered!")
+
+run
