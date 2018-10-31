@@ -8,3 +8,11 @@ class FlyingBot(SuperBot):
 
   def display_hover(self):
     print(self.hover)
+
+
+
+ def get_hover_distance():
+   return self.hover
+
+  def set_hover_distance(distance):
+    self.hover = hover
