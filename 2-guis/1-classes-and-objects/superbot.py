@@ -9,3 +9,6 @@ class SuperBot(Bot):
   def display_super_power_level(self):
     print(self.super_power_level)
     
+
+
+ def super_power_level():
